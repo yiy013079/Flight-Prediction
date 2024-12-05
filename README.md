@@ -1,2 +1,6 @@
 # Flight-Prediction
-Bigdata Flight Prediction Project
+Project Summary: Airline Flight Status Prediction
+This project leveraged Google Cloud Platform (GCP) and PySpark to solve the challenges of flight delays and cancellations, which impact customer satisfaction and operational efficiency. Using historical flight data spanning 2009–2023, we executed exploratory data analysis (EDA) to uncover patterns such as delay-prone airlines, airports, peak hours, and seasonal trends.
+We built and optimized machine learning models such as logistic regression and random forest, to predict flight statuses (on-time, delayed). The input features are average departure/arrival delays, flight distance, and flight date. The logistic regression model achieved an accuracy of 82.76%. However the random forest model faced limitations due to the absence of external data like weather conditions.
+Additionally, graph analysis identified central airport hubs and optimized rerouting strategies for disruptions, enhancing network efficiency. Our findings provided actionable recommendations, such as prioritizing resource allocation for delay-prone hubs and encouraging passengers to book during off-peak hours. This helps to improve operational improvements and customer satisfaction.
+
